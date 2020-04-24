@@ -2,9 +2,12 @@
   display: flex;
   position: relative;
   padding: 0 !important;
-  height: 360px;
+  height: 400px;
   width: 100vw;
-  background-color: #3c81b5;
+  background-color: #7EA0B7;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .heroRocket {
 width: 360px;
@@ -14,5 +17,16 @@ padding: 16px;
 }
 
 .heroHeader {
-  position: absolute;
+  margin-top: 32px;
+  color: #021E52;
+  font-size: 180%;
+  font-weight: 400;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.heroSubHeader {
+  color: #021E52;
+  font-size: 120%;
+  font-weight: 400;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
