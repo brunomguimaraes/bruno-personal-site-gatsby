@@ -4,13 +4,19 @@ import React from "react"
 import Layout from "../components/layout"
 import Hero from "../components/Hero"
 import AboutMe from "../components/AboutMe"
+import Accomplishments from "../components/Accomplishments"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Bruno's Website" />
     <Hero />
-    <AboutMe />
+    <article>
+      <AboutMe />
+    </article>
+    <article>
+      <Accomplishments />
+    </article>
   </Layout>
 )
 

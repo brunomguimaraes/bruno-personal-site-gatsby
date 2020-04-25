@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <>
       <div>
         <main>{children}</main>
-        <footer>Bruno Guimarães, © {new Date().getFullYear()}.</footer>
+        {/* <footer>Bruno Guimarães, © {new Date().getFullYear()}.</footer> */}
       </div>
     </>
   )

@@ -2,7 +2,7 @@ import React from "react";
 
 const RocketSVG = props => (
   <svg
-    data-name="Layer 1"
+    data-name="Developer Layer 1"
     width={1135.18}
     height={814.22}
     viewBox="0 0 1135.18 814.22"
