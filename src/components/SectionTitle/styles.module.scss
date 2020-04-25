@@ -1,0 +1,8 @@
+.headerText {
+  @media (max-width: 422px) {
+    font-size: 100%;
+  }
+  @media (max-width: 321px) {
+    font-size: 90%;
+  }
+}

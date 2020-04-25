@@ -7,6 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e0e0e0;
 }
 article,
 aside,
@@ -21,6 +22,13 @@ nav,
 section,
 summary {
   display: block;
+}
+article,
+section {
+  margin: 0 auto;
+}
+footer {
+  background-color: #7EA0B7;
 }
 audio,
 canvas,
