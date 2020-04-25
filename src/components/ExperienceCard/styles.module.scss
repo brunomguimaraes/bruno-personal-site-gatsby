@@ -1,12 +1,15 @@
 .experienceCard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  grid-template-columns: minmax(100px, 300px) minmax(200px, 400px);
   margin: 12px 0 12px 0;
   padding: 0 auto 0 auto;
   grid-gap: 24px;
   gap: 24px;
   justify-content: center;
   width: 100%;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+  }
 }
 
 .experienceCardImageSection {
