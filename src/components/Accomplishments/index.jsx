@@ -16,6 +16,7 @@ const Accomplishments = () => (
           date={job.date}
           photo={job.photo}
           location={job.location}
+          description={job.description}
           url={job.url}
         />
       ))}

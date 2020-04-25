@@ -1,22 +1,26 @@
 .experienceCard {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between ;
-  width: 40%;
-  background-color: pink;
-  margin: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  margin: 12px 0 12px 0;
+  padding: 0 auto 0 auto;
+  grid-gap: 24px;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
 }
 
 .experienceCardImageSection {
-  width: 160px;
-  height: 100%;
-  vertical-align: bottom;
-  display: table-cell;
-  border-radius: 25%;
-  overflow: hidden;
+  display: block;
+  justify-self: center;
+  align-self: center;
   margin: 16px;
+  .experienceCardImage {
+    border-radius: 25%;
     box-shadow: 10px 10px 5px grey;
+    width: 200px;
+    overflow: hidden;
+
+  }
 }
 
 .experienceCardInformationSection {
@@ -25,4 +29,43 @@
   align-items: flex-start;
   justify-content: center;
   padding-left: 32px;
+
+  .experienceCardTitle {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.1;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1C77C3;
+    text-decoration: none;
+    margin-bottom: 4px;
+  }
+  .experienceCardRole {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #021E52;
+  }
+
+  .experienceCardDate {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #40BCD8
+  }
+
+  .experienceCardLocation {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #1B998B;
+  }
+
+  .experienceCardDescription {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #223843;
+    text-decoration: none;
+  }
 }

@@ -14,14 +14,23 @@ const ExperienceCard = ({
 }) => (
   <div className={styles["experienceCard"]}>
     <div className={styles["experienceCardImageSection"]}>
-      <PhotoSelector photoName={photo} />
+      <div className={styles["experienceCardImage"]}>
+        <PhotoSelector photoName={photo} />
+      </div>
     </div>
     <div className={styles["experienceCardInformationSection"]}>
-      <a target="_blank" rel="noopener noreferrer" href={url} className={styles["experienceCardTitle"]}>{title}</a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={url}
+        className={styles["experienceCardTitle"]}
+      >
+        {title}
+      </a>
       <div className={styles["experienceCardRole"]}>{role}</div>
       <div className={styles["experienceCardDate"]}>{date}</div>
       <div className={styles["experienceCardLocation"]}>{location}</div>
-      <span className={styles["experienceCardDescri"]}>{description}</span>
+      <span className={styles["experienceCardDescription"]}>{description}</span>
     </div>
   </div>
 )
