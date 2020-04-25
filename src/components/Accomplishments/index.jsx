@@ -11,6 +11,7 @@ const Accomplishments = () => (
     <div className={styles["accomplishmentsCards"]}>
       {JobExperiences.map(job => (
         <ExperienceCard
+          key={`${job.title}-KEY`}
           title={job.title}
           role={job.role}
           date={job.date}

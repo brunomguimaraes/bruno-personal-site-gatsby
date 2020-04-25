@@ -27,6 +27,9 @@ article,
 section {
   margin: 0 auto;
 }
+footer {
+  background-color: #7EA0B7;
+}
 audio,
 canvas,
 progress,
