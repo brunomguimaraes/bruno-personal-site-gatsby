@@ -33,6 +33,10 @@
   justify-content: center;
   padding-left: 32px;
 
+  @media (max-width: 623px) {
+    align-items: center
+  }
+
   .experienceCardTitle {
     font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
       "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
