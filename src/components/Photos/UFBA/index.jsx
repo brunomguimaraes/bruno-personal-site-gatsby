@@ -7,7 +7,7 @@ const UFBA = () => {
     query {
       placeholderImage: file(relativePath: { eq: "ufba.png" }) {
         childImageSharp {
-          fluid(maxWidth: 80) {
+          fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
           }
         }
