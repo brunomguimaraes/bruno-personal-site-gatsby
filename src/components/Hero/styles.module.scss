@@ -29,14 +29,30 @@
 .heroHeader {
   margin-top: 32px;
   color: #021E52;
-  font-size: 4.5rem;
+  font-size: 4.5em;
   font-weight: 400;
   font-family: Kallinsha;
+  padding: 0.3em;
+  @media (max-width: 650px) {
+    font-size: 3.5em;
+  }
+  @media (max-width: 550px) {
+    font-size: 3em;
+  }
+  @media (max-width: 385px) {
+    font-size: 2.3em;
+  }
 }
 
 .heroSubHeader {
   color: #021E52;
-  font-size: 120%;
+  font-size: 1.2em;
   font-weight: 400;
   font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  @media (max-width: 650px) {
+    font-size: 0.9em;
+  }
+  @media (max-width: 385px) {
+    font-size: 0.8em;
+  }
 }
