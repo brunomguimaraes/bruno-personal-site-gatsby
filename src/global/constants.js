@@ -4,12 +4,12 @@ export const JobExperiences = [
     role: "Software Engineer",
     date: "Since November, 2019",
     location: "Salvador-BA, Brazil",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    description: `Our goal is to connect people with justice.
+      Jusbrasil opened my eyes to exciting new fields, the customer-driven culture teach me that empathy
+      matters so much. Developers and designers blow me away with their willingness to share their
+      time and wisdom and the trust my teammates place in me boosts my confidence in writing quality software.
+      Currently working on Jusbrasil's Acquisition Team improving search engine ranking using SEO techniques, targeted campaigns
+      and traffic analysis.`,
     photo: "jus",
     url: "http://jusbrasil.com.br/",
   },
