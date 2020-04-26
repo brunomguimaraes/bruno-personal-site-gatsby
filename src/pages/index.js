@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Hero from "../components/Hero"
 import AboutMe from "../components/AboutMe"
 import Accomplishments from "../components/Accomplishments"
-// import Technologies from "../components/Technologies"
+import Technologies from "../components/Technologies"
 import Contact from "../components/Contact"
 import SEO from "../components/seo"
 
@@ -19,9 +19,9 @@ const IndexPage = () => (
     <article>
       <Accomplishments />
     </article>
-    {/* <article>
+    <article>
       <Technologies />
-    </article> */}
+    </article>
     <article>
       <Contact />
     </article>

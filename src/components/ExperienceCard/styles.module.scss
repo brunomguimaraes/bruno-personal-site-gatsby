@@ -1,7 +1,7 @@
 .experienceCard {
   display: grid;
-  grid-template-columns: minmax(100px, 300px) minmax(200px, 400px);
-  margin: 12px 0 12px 0;
+  grid-template-columns: minmax(100px, 300px) minmax(200px, 600px);
+  margin: 12px 0 24px 0;
   padding: 0 auto 0 auto;
   grid-gap: 24px;
   gap: 24px;
@@ -22,7 +22,6 @@
     box-shadow: 10px 10px 5px grey;
     width: 200px;
     overflow: hidden;
-
   }
 }
 
@@ -34,7 +33,7 @@
   padding-left: 32px;
 
   @media (max-width: 623px) {
-    align-items: center
+    align-items: center;
   }
 
   .experienceCardTitle {
@@ -43,28 +42,31 @@
     line-height: 1.1;
     font-size: 1.4em;
     font-weight: bold;
-    color: #1C77C3;
+    color: #1c77c3;
     text-decoration: none;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   .experienceCardRole {
     font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
       "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.2em;
     font-weight: 500;
-    color: #021E52;
+    color: #021e52;
+    margin-bottom: 4px;
   }
 
   .experienceCardDate {
     font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
       "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-      color: #40BCD8
+    color: #40bcd8;
+    margin-bottom: 4px;
   }
 
   .experienceCardLocation {
     font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
       "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-      color: #1B998B;
+    color: #1b998b;
+    margin-bottom: 4px;
   }
 
   .experienceCardDescription {
