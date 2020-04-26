@@ -4,12 +4,12 @@ export const JobExperiences = [
     role: "Software Engineer",
     date: "Since November, 2019",
     location: "Salvador-BA, Brazil",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    description: `Our goal is to connect people with justice.
+      Jusbrasil opened my eyes to exciting new fields, the customer-driven culture teach me that empathy
+      matters so much. Developers and designers blow me away with their willingness to share their
+      time and wisdom and the trust my teammates place in me boosts my confidence in writing quality software.
+      Currently working on Jusbrasil's Acquisition Team improving search engine ranking using SEO techniques, targeted campaigns
+      and traffic analysis.`,
     photo: "jus",
     url: "http://jusbrasil.com.br/",
   },
@@ -35,7 +35,8 @@ export const JobExperiences = [
     location: "Camaçari-BA, Brazil",
     description: `This was my first internship, I had the opportunity to work as a team to solve
       problems and come up with solutions to increase overall plant productivity and efficiency.
-      At White Martins was where I learned how to articulate my ideas and transform those into results.`,
+      At White Martins was where I learned how to articulate my ideas and transform those into results.
+      During this period I've discovered my passion for state-of-the-art technologies and teamwork.`,
     photo: "white",
     url: "http://www.praxair.com.br/",
   },
@@ -44,12 +45,12 @@ export const JobExperiences = [
     role: "Control and Automation Engineer",
     date: "January, 2013 - December, 2018",
     location: "Salvador-BA, Brazil",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    description: `UFBA presented unprecedented diversity of opportunity.
+      Since the beginning my professors across the disciplines pushed me to expand,
+      challenge, and adjust my worldview.
+      UFBA gave me the tools to do what I love to do, showed me how to become self-taught, and surrounded me with a
+      wealth of inspiring peers. My engagement in UFBA's tech & innovation initiatives exercised my creative thinking,
+      sparked my love for learning, and strengthened my tolerance to adversity.`,
     photo: "ufba",
     url: "https://www.ufba.br/",
   },
