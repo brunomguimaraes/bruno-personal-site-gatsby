@@ -13,7 +13,7 @@ const AboutMe = () => (
     <span className={styles["aboutMeDescription"]}>
       I'm a Software Enginner based in Salvador, Brazil. I have a
       passion for technology and love to come up with smart solutions to our
-      everyday problems.
+      daily problems.
     </span>
   </div>
 )

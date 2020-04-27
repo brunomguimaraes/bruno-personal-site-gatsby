@@ -18,9 +18,9 @@ export const JobExperiences = [
     role: "Frontend Developer",
     date: "January, 2019 - November, 2019",
     location: "Salvador-BA, Brazil",
-    description: `After falling in love with learning programming and deciding to pivot my carrer to Software Develoment,
+    description: `After falling in love with learning programming and deciding to pivot my career to Software Develoment,
       Cubos gave me that chance and pushed me to my limits, fortunately, I was able to work alongside brilliant colleagues
-      and those times where crucial for my carrer.
+      and those times where crucial for my career.
       I've had the opportunity to work on several projects that laid the foundation for my software engineering
       career.
       I'm grateful for the time I spent with these folks, whose work gave me a glimpse into
