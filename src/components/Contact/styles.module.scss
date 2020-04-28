@@ -33,6 +33,7 @@
   grid-gap: 24px;
   margin: 32px 0 32px;
   justify-content: center;
+
   @media (max-width: 425px) {
     grid-template-columns: 50% 50%;
   }
