@@ -8,8 +8,8 @@ export const JobExperiences = [
       Jusbrasil opened my eyes to exciting new fields, the customer-driven culture teaches me that empathy
       matters so much. Developers and designers blow me away with their willingness to share their
       time and wisdom. The trust my teammates place on me boosts my confidence in writing quality software.
-      Currently working on Jusbrasil's Acquisition Team improving search engine ranking using SEO techniques, targeted campaigns
-      and traffic analysis.`,
+      In previous work on Jusbrasil's Acquisition Team I was able to improve Jus's search engine ranking using SEO techniques, targeted campaigns
+      and traffic analysis. Currently working on Jusbrasil's Kill-Topics Team, where we are about to revamp the whole SERP page using mainly GraphQl and React. `,
     photo: "jus",
     url: "http://jusbrasil.com.br/",
   },
