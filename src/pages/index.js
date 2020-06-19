@@ -1,7 +1,8 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import "../styles/global.css"
+
+import GitHubCalendar from 'react-github-calendar';
 
 import Layout from "../components/layout"
 import Hero from "../components/Hero"
@@ -10,6 +11,7 @@ import Accomplishments from "../components/Accomplishments"
 import Technologies from "../components/Technologies"
 import Contact from "../components/Contact"
 import SEO from "../components/seo"
+
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +25,9 @@ const IndexPage = () => (
     </article>
     <article>
       <Technologies />
+    </article>
+    <article>
+      <GitHubCalendar username="brunomguimaraes" />
     </article>
     <article>
       <Contact />
