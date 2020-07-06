@@ -4,7 +4,7 @@
   padding: 0 !important;
   height: 500px;
   width: 100%;
-  background-color: #7EA0B7;
+  background-color: #021E52;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -13,6 +13,7 @@
   width: 360px;
   height: 360px;
   margin: 16px;
+  padding: 16px;
 
     @media (max-width: 560px) {
       width: 300px;
@@ -28,11 +29,13 @@
 
 .heroHeader {
   margin-top: 32px;
-  color: #021E52;
+  color: #7EA0B7;
   font-size: 4.5em;
   font-weight: 400;
-  font-family: Kallinsha;
-  padding: 0.1em;
+  padding: 0.5em;
+    strong {
+      color: #F18805;
+    }
   @media (max-width: 650px) {
     font-size: 3.5em;
   }
@@ -45,9 +48,8 @@
 }
 
 .heroSubHeader {
-  color: #021E52;
+  color: #7EA0B7;
   font-size: 1.2em;
-  font-weight: 400;
   font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   @media (max-width: 650px) {
     font-size: 0.9em;
