@@ -2,14 +2,18 @@
   display: flex;
   position: relative;
   padding: 0 !important;
-  height: 500px;
+  height: 560px;
   width: 100%;
-  background-color: #021E52;
+  background: url(../../assets/landscape.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-  .heroRocket {
+  .heroLandscape {
   width: 360px;
   height: 360px;
   margin: 16px;
@@ -29,12 +33,12 @@
 
 .heroHeader {
   margin-top: 32px;
-  color: #7EA0B7;
+  color: #E0E0E0;
   font-size: 4.5em;
   font-weight: 400;
   padding: 0.5em;
     strong {
-      color: #F18805;
+      color: #F9A72B;
     }
   @media (max-width: 650px) {
     font-size: 3.5em;
@@ -48,7 +52,7 @@
 }
 
 .heroSubHeader {
-  color: #7EA0B7;
+  color: #E0E0E0;
   font-size: 1.2em;
   font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   @media (max-width: 650px) {

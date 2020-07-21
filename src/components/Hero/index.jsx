@@ -1,5 +1,4 @@
 import React from "react"
-import RocketSVG from "../assets/svg/rocketSvg"
 
 import styles from "./styles.module.scss"
 
