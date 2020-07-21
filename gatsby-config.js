@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Bruno Guimarães`,
     description: `Personal website from someone who is passionate for technology and love to come up with smart solutions to our everyday problems.`,
+    url: "https://www.brunomoraesguimaraes.com.br", // No trailing slash allowed!
+    image: "/images/bgny.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@brunaodev",
     author: `@brunaodev`,
   },
   plugins: [
