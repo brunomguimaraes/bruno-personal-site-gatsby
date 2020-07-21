@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const UFBA = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "ufba.png" }) {
+      placeholderImage: file(relativePath: { eq: "ufba_logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
