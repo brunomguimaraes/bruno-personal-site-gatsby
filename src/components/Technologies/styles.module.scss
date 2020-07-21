@@ -1,7 +1,7 @@
 .technologies {
   display: flex;
   height: 100%;
-  background-color: #e0e0e0;
+  background-color: #020E27;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -10,6 +10,7 @@
 }
 
 .technologiesDescription {
+  color: #C3CDD9;
   display: block;
   padding: 0 auto 0 auto;
   max-width: 460px;
@@ -40,7 +41,7 @@
   span {
     font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
       "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    color: #223843;
+    color: #C3CDD9;
     text-decoration: none;
     font-size: 0.5rem;
   }
