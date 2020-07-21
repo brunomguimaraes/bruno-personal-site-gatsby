@@ -3,7 +3,7 @@ module.exports = {
     title: `Bruno Guimarães`,
     description: `Personal website from someone who is passionate for technology and love to come up with smart solutions to our everyday problems.`,
     url: "https://www.brunomoraesguimaraes.com.br",
-    image: "/images/bgny.jpg", 
+    image: `src/images/bgny.jpg`, 
     twitterUsername: "@brunaodev",
     author: `@brunaodev`,
   },
