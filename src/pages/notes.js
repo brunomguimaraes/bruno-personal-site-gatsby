@@ -4,16 +4,12 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 import "../styles/global.css"
-import Hero from "../components/Hero"
+import HeroBlog from "../components/HeroBlog"
 
 const Notes = () => (
   <Layout>
     <SEO title="Bruno's Website" />
-    <div>
-    <article>
-      <Hero />
-    </article>
-    </div>
+    <HeroBlog />
   </Layout>
 )
 
