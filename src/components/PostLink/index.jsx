@@ -3,12 +3,18 @@ import { Link } from "gatsby"
 
 import styles from "./styles.module.scss"
 
-const PostLink = ({ post }) => (
-  <div className={styles["postLink"]}>
+const PostLink = ({ post }) => {
+
+  return (
     <Link to={post.frontmatter.slug}>
-      {post.frontmatter.title} ({post.frontmatter.date})
+      <div className={styles["postLink"]}>
+        <span>Theme</span>
+        <p>{post.frontmatter.title}</p>
+        <p>({post.frontmatter.date})</p>
+        <span>Read more...</span>
+      </div>
     </Link>
-  </div>
-)
+  )
+}
 
 export default PostLink
