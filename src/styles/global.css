@@ -2,3 +2,11 @@
   font-family: "Kallinsha";
   src: url("../../static/fonts/kallinsha/Kallinsha.woff")   format("woff");
 }
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 40px 0px;
+  margin: 0 32px 0 32px;
+}

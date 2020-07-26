@@ -21,7 +21,7 @@ const Notes = ({
     <Layout>
       <SEO title="Bruno's Website" />
       <HeroBlog />
-      <div>{Posts}</div>
+      <div className="posts-container">{Posts}</div>
     </Layout>
   )
 }
