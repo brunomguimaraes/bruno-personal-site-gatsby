@@ -207,7 +207,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #9BA9BF;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -393,6 +393,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  color: #9BA9BF;
 }
 figure {
   margin-left: 0;
@@ -627,4 +628,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.blog-post {
+  margin: 32px;
 }

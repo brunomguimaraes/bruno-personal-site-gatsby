@@ -2,14 +2,16 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./layout.css"
+import Navbar from "./Navbar"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div>
-        <main>{children}</main>
-        {/* <footer>Bruno Guimarães, © {new Date().getFullYear()}.</footer> */}
-      </div>
+      <main>
+        <Navbar />
+        {children}
+      </main>
+      {/* <footer>Bruno Guimarães, © {new Date().getFullYear()}.</footer> */}
     </>
   )
 }
